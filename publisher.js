@@ -1,7 +1,7 @@
 const amqp = require("amqplib");
 // Advanced Message Queue Protocol
 
-const msg = { number: 19 };
+const msg = { number: process.argv[2] };
 
 connect();
 
